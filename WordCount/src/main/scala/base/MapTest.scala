@@ -8,5 +8,10 @@ object MapTest {
     for (elem <- books) {
       println(elem)
     }
+
+    books flatMap (s => s.toList)
+    for (s <- books) {
+      println(s)
+    }
   }
 }
