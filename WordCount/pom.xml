@@ -75,9 +75,8 @@
         </dependency>
     </dependencies>
 
-  <!--  <build>
+    <build>
         <plugins>
-
             <plugin>
                 <groupId>org.scala-tools</groupId>
                 <artifactId>maven-scala-plugin</artifactId>
@@ -109,5 +108,4 @@
 
         </plugins>
     </build>
--->
 </project>
