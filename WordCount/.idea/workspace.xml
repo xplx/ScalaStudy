@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed066a7-75da-4878-b23e-76354af4bd8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/ParquetData.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77f1d19264b4d080113f8a93fddaf99f016bcdeb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/spark/SparkOperateHBase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/SparkOperateHBase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spark/SparkOperateHBase$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spark/SparkOperateHBase$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spark/SparkOperateHBase$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spark/SparkOperateHBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spark/SparkOperateHBase.class" afterDir="false" />
-    </list>
+    <list default="true" id="5ed066a7-75da-4878-b23e-76354af4bd8d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +15,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkHive.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#15#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkMlStudy.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+              <folding>
+                <element signature="e#15#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkSql.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-799">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkMysql.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="56" column="50" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="56" selection-end-column="50" />
+              <folding>
+                <element signature="e#15#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +78,7 @@
       <find>net.topology.script.file.name</find>
       <find>user</find>
       <find>DELL</find>
+      <find>training</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -89,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/spark/SparkMysql.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/spark/SparkHive.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spark/PipelineStudy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spark/SparkMlStudy.scala" />
       </list>
     </option>
   </component>
@@ -103,7 +130,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -198,9 +225,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkHive">
+  <component name="RunManager" selected="Application.PipelineStudy">
     <configuration name="ParquetData" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="spark.ParquetData" />
+      <module name="WordCount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PipelineStudy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.SparkMlStudy" />
       <module name="WordCount" />
       <extension name="coverage">
         <pattern>
@@ -238,19 +278,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkOperateHBase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.SparkOperateHBase" />
-      <module name="WordCount" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SparkSql" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="spark.SparkSql" />
       <module name="WordCount" />
@@ -266,19 +293,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SparkOperateHBase" />
       <item itemvalue="Application.SparkSql" />
       <item itemvalue="Application.ParquetData" />
       <item itemvalue="Application.SparkMysql" />
       <item itemvalue="Application.SparkHive" />
+      <item itemvalue="Application.PipelineStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PipelineStudy" />
         <item itemvalue="Application.SparkHive" />
         <item itemvalue="Application.SparkMysql" />
         <item itemvalue="Application.ParquetData" />
         <item itemvalue="Application.SparkSql" />
-        <item itemvalue="Application.SparkOperateHBase" />
       </list>
     </recent_temporary>
   </component>
@@ -296,15 +323,15 @@
       <workItem from="1567675330211" duration="13255000" />
       <workItem from="1567758074121" duration="2965000" />
       <workItem from="1567761671720" duration="23133000" />
-      <workItem from="1568022911324" duration="23015000" />
+      <workItem from="1568022911324" duration="31086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67220000" />
+    <option name="totallyTimeSpent" value="75291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -319,7 +346,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3586592" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.11284916" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -598,26 +625,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkSql.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkMysql.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="56" column="50" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="56" selection-end-column="50" />
-          <folding>
-            <element signature="e#15#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -645,6 +652,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#15#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkSql.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkMysql.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="56" column="50" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#15#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spark/SparkMlStudy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
           <folding>
             <element signature="e#15#64#0" expanded="true" />
           </folding>
