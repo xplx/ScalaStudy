@@ -1,7 +1,8 @@
 # ScalaStudy
 用于学习大数据spark
 学习网址：
-http://dblab.xmu.edu.cn/blog/spark/
+子雨：http://dblab.xmu.edu.cn/blog/spark/
+大数据学习网址：https://www.aboutyun.com/portal.php
 
 异常：org.apache.spark.SparkException: A master URL must be set in your configuration
 解决办法：在IDE中点击Run -> Edit Configuration，在右侧VM options中输入“-Dspark.master=local”，指示本程序本地单线程运行
@@ -15,3 +16,5 @@ http://dblab.xmu.edu.cn/blog/spark/
 Name: 40  favorite color:Michael
 Name: 30  favorite color:Andy
 Name: 19  favorite color:Justin
+
+val spark = SparkSession.builder().appName("Spark Hive Example").config("spark.sql.warehouse.dir", warehouseLocation).enableHiveSupport().getOrCreate()
